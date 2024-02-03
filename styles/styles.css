@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: 'roboto' , sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+    
+}
+
+body {
+    height: 100vh;
+}
+
+.headercontainer {
+    background-color: #1F2937;
+    color: white;
+}
+
+.header.top {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px 10px 0px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    color: #F9FaF8;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+li {
+    color: #E5E7Eb;
+    font-size: 18px;
+}
+
+.right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    width: 500px;
+    height: 300px;
+}
+
+.right img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.herobutton,
+.signupbutton {
+    background-color: #3882F6;
+    padding: 5px 30px 5px 30px;
+    font-size: 18px;
+    border-radius: 11px;
+    border: 0;
+    margin-left: 0;
+    
+}
+
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: lightgray;
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+}
+
+.signup {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    gap: 30px;
+}
+
+.signupbutton {
+    border: 2px white solid;
+}
+
+.signupbold {
+    font-weight: bold;
+    color: white;
+    font-size: 18px;
+}
+
+.signuplight {
+    font-size: 14px;
+    color: white;
+}
+
+.quote {
+    background-color: #E5E7Eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    flex-shrink: 0;
+    margin: 30px 0px 30px 0px;
+    padding: 60px;
+}
+
+.quotetext {
+    font-size: 36px;
+    font-weight: lighter;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.signature {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.infoheader {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.sub {
+    color: #1F2937;
+}
+
+.imgdescription {
+    display: flex;
+}
+
+h3 {
+    text-align: center;
+}
