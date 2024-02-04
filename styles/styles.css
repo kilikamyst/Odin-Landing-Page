@@ -9,12 +9,16 @@
 }
 
 body {
-    height: 100vh;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .headercontainer {
     background-color: #1F2937;
     color: white;
+    justify-content: space-evenly;
+    padding: 10px 100px 10px 100px;
 }
 
 .header.top {
@@ -51,22 +55,23 @@ li {
     justify-content: center;
     align-items: center;
     overflow: hidden;
-    width: 500px;
-    height: 300px;
+    width: 400px;
+    height: 200px;
 }
 
 .right img {
     flex-shrink: 0;
     min-width: 100%;
     min-height: 100%;
+    flex-grow: 0;
 }
 
 .description {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-bottom: 50px;
+    flex-grow: 0;
 }
 
 .herobutton,
@@ -90,7 +95,9 @@ img {
     color: lightgray;
     display: flex;
     justify-content: center;
-    padding: 25px;
+    align-items: flex-end;
+    margin-top: auto;
+    padding: 20px;
 }
 
 .signup {
@@ -98,8 +105,11 @@ img {
     background-color: #3882F6;
     justify-content: center;
     align-items: center;
-    padding: 20px;
+    padding: 20px 70px 20px 70px;
     gap: 30px;
+    width: 700px;
+    margin: 50px auto 50px auto;
+    border-radius: 10px;
 }
 
 .signupbutton {
@@ -125,8 +135,8 @@ img {
     align-items: flex-end;
     flex-wrap: wrap;
     flex-shrink: 0;
-    margin: 30px 0px 30px 0px;
-    padding: 60px;
+    margin: 10px 0px 10px 0px;
+    padding: 20px 100px 20px 100px;
 }
 
 .quotetext {
@@ -144,6 +154,7 @@ img {
 .infoheader {
     font-size: 36px;
     font-weight: bolder;
+    margin: 30px auto 30px auto;
 }
 
 .sub {
@@ -152,8 +163,68 @@ img {
 
 .imgdescription {
     display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-evenly;
+    align-items: center;
+    max-width: 1000px;
+    flex-grow: 0;
+    margin: 10px auto 10px auto;
 }
 
 h3 {
     text-align: center;
+    margin: 50px 0px 50px 0px;
+}
+
+.img {
+    border: 2px #3882F6 solid;
+    border-radius: 10px;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.imgcontainer {
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+    flex-grow: 1;
+}
+
+.subcontainer {
+    display: flex;
+    justify-content: space-evenly;
+    flex-grow: 1;
+    gap: 20px;
+    height: 100px;
+    width: 100px;
+}
+
+.sub {
+    text-align: center;
+}
+
+.hero {
+    color: rgba(255, 255, 255, 0.637);
+}
+
+.left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.headerimg {
+    flex-grow: 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    max-height: 100vh;
+    flex-grow: 1;
 }
